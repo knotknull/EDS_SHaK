@@ -132,6 +132,44 @@ http://tiny.bdi.io/mrvideo
 
 
 
+## Solutions
+ - What value is there in your data?
+ - How will it be used and augment decisions?
+ - How can data benefit your customers?
+
+ - How fast do you need it ?
+    - Real time
+    - Batch
+
+Create a POC in the cloud
+
+
+  Big Data Solution Steps
+    1. Figure out if it is a Big Data Problem
+    2. Identify business needs
+    3. Get training
+    4. Choose the right technologies
+    5. Write the prototype code
+    6. Create cluster in the cloud
+    7. Evaluate.  Was it successful? Did you gain value from data?
+    8. Repeat for crawk, walk, run
+
+
+Time Frames:
+  - There is an inherent cost of the cutover
+      - delaying switch can lead to large technical debt
+      - can't switch over fast enough and loses opportunities
+
+
+
+
+
+
+
+
+
+
+
 
 Hadoop 3.0: erasure encoding ?
 https://blog.cloudera.com/blog/2015/09/introduction-to-hdfs-erasure-coding-in-apache-hadoop/
