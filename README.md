@@ -1,2 +1,2 @@
 # EDS_SHaK
-Enterprise Data: Spark + Hadoop + Kafka
+Enterprise Data Strategies:  Hadoop + Spark + Kafka

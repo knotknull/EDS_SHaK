@@ -1,0 +1,45 @@
+Enterprise Data Strategies:  Hadoop + Spark + Kafka
+Jesse Anderson
+
+Should not place Big Data team in Data Warehousing area
+
+80% of data is unstructured !
+
+Blog At Orielly: On Complexity and Big Data
+
+
+Hadoop:  HDFS + MapReduce
+
+HDFS: Distributed File System
+MapReduce:  Distributed processing engine
+
+
+http://www.jesse-anderson.com/books/the-ultimate-guide-to-switching-careers-to-big-data
+http://www.jesse-anderson.com/books/data-engineering-teams/
+
+Ecosystem:
+
+  - Apache Hive: Data Warehousing infrastructure built on top of Hadoop
+                 HiveQL (SQL-like language)
+
+  - Apache Pig: analyze large data.
+                 PigLatin (data flow language) translated to MapReduce
+                 
+
+
+
+erasure encoding ?
+
+PySpark ?
+
+
+
+
+
+
+
+
+
+
+
+#
