@@ -118,6 +118,18 @@ Hadoop commands:
   hadoop fs -cp /user/vmuser/file.txt  /usr/vmuser/file2.txt
 
 
+## MapReduce
+  - Map
+  - Shuffle Sort
+  - Reduce
+  - Shared Nothing
+  - Data Locality
+  - Failure Handling
+
+
+MapReduce explained w/ playing cards:
+http://tiny.bdi.io/mrvideo
+
 
 
 
