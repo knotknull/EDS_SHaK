@@ -161,9 +161,17 @@ Time Frames:
       - can't switch over fast enough and loses opportunities
 
 
+Next Spark >>  Apache Ignite (GridGain)
+
+arrow.apache.org
+ignite.apache.org
+twitter.github.io/heron
+flink.apache.org
+pulsar.incubator.apache.org
 
 
 
+Don't keep small data, have big and wide data
 
 
 
