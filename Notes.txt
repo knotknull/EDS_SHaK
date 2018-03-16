@@ -24,18 +24,105 @@ Ecosystem:
 
   - Apache Pig: analyze large data.
                  PigLatin (data flow language) translated to MapReduce
-                 
+
+  - Apache Crunch: Simple Java API (create pipelines for processing)
+
+  - Apache Beam:  Write code on single API and run on different frameworks
+                  built-in functions
+
+  - Apache Cascading:  closer to functional programming.
+                          Separate business logic and integration logic
+
+  - Apache Oozie:  workflow scheduler to manage Apache Hadoop jobs
+                    - uses XML to define jobs and settings
+                    - uses JSTL for control and logic
+
+  - Apache Airflow:  schedule and monitor workflows
+                      - created by Airbnb
+                      - uses python to create and control workflows
+                      - allows you to view the DAG for the workflow
+
+  - Apache Hue:  Browser based way to interact w/ Hadoop
+                    - run MapReduce
+                    - view / interact w/ HDFS
+                    - Schedule workflows to run with drag / drop interface (*)
+
+  - Apache Solr / Lucene:  text search
+                    - Solr exposes REST interface for queries
+
+  - Apache HBase:  column family NoSQL DB
+                    - Read / write randomly
+
+  - Apache Spark:  Big Data processing engineering
+                    - richer API for processing
+                    - Processes in real-time using micro-batches
+                    - Rapidly evolving **
+
+  - Apache Storm:   streams and micro-batches (twitter, successor is Heron)
+
+  - Apache Flink:   streams and micro-batches
+
+  - Apache NiFi:    streams, micro-batches, full batch
+
+  - Kafka Streams:  streams and windows
+
+  - Apache Samza:   Dying a slow death ?
+
+Real-time Queries
+  - Apache Impala:
+  - Apache Presto:
 
 
 
-erasure encoding ?
+First Mile Problem / Last Mile Problem
+http://www.jesse-anderson.com//2016/09/solving-the-first-and-last-mile-problemwith-kafka-part-1
 
-PySpark ?
-
-
-
+http://www.jesse-anderson.com//2017/03/what-happens-when-you-hire-a-data-scientist-without-a-data-engineer
 
 
+
+Monitoring Hadoop Clusters
+  - Cloudera Manager
+  - Apache Ambari
+
+
+Intro to HDFS:
+http://tiny.bdi.io/hdfsvideo
+
+ - Shouldn't store many small files
+ - files cannot be overwritten and are immutable
+
+Hadoop commands:
+  hadoop fs         - list of hdfs commands
+  hadoop fs -ls     - list HDFS users home directory
+  hadoop fs -ls  /usre/vmuser/data   - fs has not current working directory
+
+  ## Copy file to HDFS
+  hadoop fs -put data.txt  - copy file from local to HDFS
+  hadoop fs -put /home/vmuser/data.txt  /usr/vmuser/data.txt
+
+  ## Copy file from HDFS HDFS
+  hadoop fs -get output.txt
+  hadoop fs -get /usr/vmuser/output.txt /home/vmuser/output.txt
+
+  ## Create a directory
+  hadoop fs -mkdir newdirectory
+
+  ## Remove a file
+  hadoop fs -rm /user/vmuser/file.txt
+
+  ## Recursively remove a directory
+  hadoop fs -rm  -r /user/vmuser/olddirecotry
+
+  ## Copy files
+  hadoop fs -cp /user/vmuser/file.txt  /usr/vmuser/file2.txt
+
+
+
+
+
+Hadoop 3.0: erasure encoding ?
+https://blog.cloudera.com/blog/2015/09/introduction-to-hdfs-erasure-coding-in-apache-hadoop/
 
 
 
